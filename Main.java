@@ -23,5 +23,21 @@ public class Main {
         r = signThree.getLines();
         System.out.println(e);
         System.out.println(r);
+
+        int t;
+        String u;
+        Sign signFour = new Sign("", 4);
+        t = signFour.numberOfLines();
+        u = signFour.getLines();
+        System.out.println(t);
+        System.out.println(u);
+
+        int i;
+        String p;
+        Sign signFive = new Sign("AB_CD_EF", 2);
+        i = signFive.numberOfLines();
+        p = signFive.getLines();
+        System.out.println(i);
+        System.out.println(p);
     }
 }
